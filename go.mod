@@ -36,18 +36,18 @@ require (
 	golang.org/x/text v0.31.0 // indirect
 	golang.org/x/tools v0.39.0 // indirect
 	google.golang.org/protobuf v1.36.10 // indirect
-)
-require (
-	gorm.io/driver/mysql v1.6.0
-	gorm.io/gorm v1.31.1
+	github.com/redis/go-redis/v9 v9.17.0
+    gorm.io/driver/mysql v1.6.0
+    gorm.io/gorm v1.31.1
+    filippo.io/edwards25519 v1.1.0 // indirect
+    github.com/cespare/xxhash/v2 v2.3.0 // indirect
+    github.com/dgrijalva/jwt-go v3.2.0+incompatible // indirect
+    github.com/dgryski/go-rendezvous v0.0.0-20200823014737-9f7001d12a5f // indirect
+    github.com/go-sql-driver/mysql v1.9.3 // indirect
+    github.com/jinzhu/inflection v1.0.0 // indirect
+    github.com/jinzhu/now v1.1.5 // indirect
+    github.com/jmoiron/sqlx v1.4.0 // indirect
+    github.com/shopspring/decimal v1.4.0 // indirect
 )
 
-require (
-	filippo.io/edwards25519 v1.1.0 // indirect
-	github.com/go-sql-driver/mysql v1.9.3 // indirect
-	github.com/jinzhu/inflection v1.0.0 // indirect
-	github.com/jinzhu/now v1.1.5 // indirect
-	github.com/jmoiron/sqlx v1.4.0 // indirect
-	github.com/shopspring/decimal v1.4.0 // indirect
-	golang.org/x/text v0.31.0 // indirect
-)
+
